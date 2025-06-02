@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: right;
+    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.logo img { 
+    /* Retirar o margem e alinhar ao centro com flex na div .logo 
+    Deixar a imagem de perfil redonda e como máximo 40x40px
+    Retirar as cores de fundo 
+    Criar o Input de pesquisa e alinhar ele ao centro*/
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 500px;
+    padding-top: 150px;
+}
+
+.quadrado {
+    background-color: brown;
+    justify-content: space-between;
+    width: 5px;
+    height: 5px;
+    border-radius: 700px;
+    margin: 1px;
+    margin-bottom: 2px;
+}
+
+
+
